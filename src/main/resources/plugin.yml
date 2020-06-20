@@ -1,0 +1,9 @@
+name: MinecraftPlugin
+main: saijo.test.minecraft.plugin.hoge.MinecraftPlugin
+version: 0.0.1
+commands:
+     ignite:
+        description: This is a ignite command.
+        usage: /<command> [player]
+        permission: MinecraftPlugin.ignite
+        permission-message: You don't have <permission>
